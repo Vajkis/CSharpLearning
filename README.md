@@ -26,13 +26,15 @@ bool isOpen = false;
 ++ // increment (increase by 1)
 -- // decrement (decrease by 1)
 
-2 + 3   // 5
-7 - 4   // 3
-3 * 7   // 21
-28 / 4  // 7
-21 % 2  // 1
-73++    // 74
-48--    // 47
+double num = 10;
+
+num + 3  // 13
+num - 4  // 6
+num * 7  // 70
+num / 4  // 2.25
+num % 3  // 1
+num++    // 11
+num--    // 9
 
 // Comparison Operator
 <  // less than
