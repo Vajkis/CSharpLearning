@@ -1,0 +1,60 @@
+# Build files
+bin/
+obj/
+
+# User-specific files
+*.user
+*.vspscc
+*.vssscc
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider and Resharper files
+.idea/
+*.sln.iml
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Temporary files
+*.tmp
+*.cache
+*.pid
+*.seed
+*.bak
+
+# Publish output
+publish/
+dist/
+
+# Database and configuration files
+*.db
+*.mdb
+*.sqlite
+appsettings.json
+appsettings.Development.json
+
+# Dotnet specific
+project.lock.json
+project.assets.json
+
+# IIS and web-specific
+iisexpress/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
