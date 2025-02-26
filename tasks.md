@@ -5,3 +5,4 @@
 5. susikurti du skaiciu kintamuosius, po to susikurti kita kintamaji
    ir panaudoti salygini operatoriu (< arba >) pries tai sukurtiems skaiciams palyginti
    kad atsakymas butu 'true'.
+6. susikurti 2 skaiciu kintamuosius ir juos palyginti ar jie nera lygus
