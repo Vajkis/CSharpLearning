@@ -1,12 +1,12 @@
 ```cs
-//  Types:
-char
-string
-int
-float
-double
-decimal
-bool
+// Types:
+char     // single character (e.g., 'A')
+string   // sequence of characters (e.g., "Hello")
+int      // integer number (e.g., 42)
+float    // floating-point number, single precision (e.g., 3.14f)
+double   // floating-point number, double precision (e.g., 3.14159)
+decimal  // high-precision floating-point number, mainly for financial calculations (e.g., 10.99m)
+bool     // boolean value (true or false)
 
 // Variables
 char symbol = 'x';
