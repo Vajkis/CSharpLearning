@@ -50,4 +50,20 @@ num--    // 9
 7 >= 9    // false
 99 == 66  // false
 73 != 7   // true
+
+// Assignment Operators
++= // add and assign
+-= // subtract and assign
+*= // multiply and assign
+/= // divide and assign
+%= // modulus and assign
+
+double num = 10;
+
+num += 5;  // num = num + 5  → 15
+num -= 2;  // num = num - 2  → 13
+num *= 3;  // num = num * 3  → 39
+num /= 3;  // num = num / 3  → 13
+num %= 4;  // num = num % 4  → 1
+
 ```
