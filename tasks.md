@@ -11,5 +11,5 @@
 7. susikurti tris skaiciu kintamuosius,
    palyginti ar pirmu dvieju skaiciu suma yra lygi treciajam skaiciui
    ir atsakyma prilygint kitam kintamajam
-8. sikurti sveikojo skaiciaus kintamaji ir patikrinus ar jis yra lyginis
-   kitam kintamajam prilyginti atsakima
+8. susikurti sveikojo skaiciaus kintamaji ir patikrinus ar jis yra lyginis
+   kitam kintamajam prilyginti atsakyma
