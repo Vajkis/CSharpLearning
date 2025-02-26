@@ -13,3 +13,6 @@
    ir atsakyma prilygint kitam kintamajam
 8. susikurti sveikojo skaiciaus kintamaji ir patikrinus ar jis yra lyginis
    kitam kintamajam prilyginti atsakyma
+9. susikurti du 'string' kintamuosius,
+   palyginti ar jie yra identiski
+   ir atsakyma prilyginti naujam kintamajam.
