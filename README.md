@@ -5,14 +5,14 @@ string   // sequence of characters (e.g., "Hello")
 int      // integer number (e.g., 42)
 float    // floating-point number, single precision (e.g., 3.14f)
 double   // floating-point number, double precision (e.g., 3.14159)
-decimal  // high-precision floating-point number, mainly for financial calculations (e.g., 10.99m)
+decimal  // high-precision floating-point number, mainly for financial calculations (e.g., 10.99M)
 bool     // boolean value (true or false)
 
 // Variables
 char symbol = 'x';
 string text = "Hello world!";
 int number = 5;
-float number2 = 4.58;
+float number2 = 4.58f;
 double number3 = 2.1685;
 decimal number4 = 2.78M;
 bool isOpen = false;
