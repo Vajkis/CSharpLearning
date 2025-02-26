@@ -18,13 +18,13 @@ decimal number4 = 2.78M;
 bool isOpen = false;
 
 // Arithmetic Operators
-+
--
-*
-/
-%
-++
---
++  // sum
+-  // difference
+*  // multiplication
+/  // division
+%  // remainder (modulus)
+++ // increment (increase by 1)
+-- // decrement (decrease by 1)
 
 2 + 3   // 5
 7 - 4   // 3
@@ -35,12 +35,12 @@ bool isOpen = false;
 48--    // 47
 
 // Comparison Operator
-<
->
-<=
->=
-==
-!=
+<  // less than
+>  // greater than
+<= // less than or equal to
+>= // greater than or equal to
+== // equal to
+!= // not equal to
 
 1 < 6     // true
 5 > 7     // false
@@ -48,5 +48,4 @@ bool isOpen = false;
 7 >= 9    // false
 99 == 66  // false
 73 != 7   // true
-
 ```
