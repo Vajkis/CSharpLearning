@@ -44,7 +44,7 @@ num++    // 11
 num--    // 9
 ```
 
-## Comparison Operator
+## Comparison Operators
 
 ```cs
 <  // less than
@@ -132,7 +132,7 @@ Console.Write("Some text");
 // Prints text to the terminal and moves to the next line.
 Console.WriteLine("Some text");
 
-// Also you can provide diferent numbers types
+// Also you can provide different numbers types.
 Console.Write(1);
 Console.Write(3.14M);
 Console.WriteLine(74.1);
