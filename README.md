@@ -143,7 +143,7 @@ Console.WriteLine(9.17f);
 Console.ReadLine();
 
 // Waits for a single key press from the user and does not require Enter.
-// returns a ConsoleKeyInfo object
+// returns a 'ConsoleKeyInfo' object
 Console.ReadKey();
 ```
 
