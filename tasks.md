@@ -62,3 +62,9 @@
 ```
 13. Susikurti du skaičių kintamuosius ir pirmą atnaujinti, pridėjus antrą.
 ```
+
+```
+14. Susikurti tris skaičius, antrą atnaujinti padauginus iš trečio,
+    palygint ar pirmas skaičius yra didesnis uz antrą
+    ir atsakymą prilygint naujam kintamajam.
+```
