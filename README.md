@@ -113,10 +113,10 @@ display output to the terminal, and control various terminal properties
 like colors and cursor position.
 */
 
-// Prints text to the console without a newline at the end.
+// Prints text to the terminal without a new line at the end.
 Console.Write("Some text");
 
-// Prints text to the console and moves to the next line.
+// Prints text to the terminal and moves to the next line.
 Console.WriteLine("Some text");
 
 // Waits for user input until they press Enter
