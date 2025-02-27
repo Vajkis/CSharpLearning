@@ -88,3 +88,7 @@ b %= 3;            //
 ```
 17. Susikurti du 'string' kintamuosius ir sujungus juos išvesti į terminalą.
 ```
+
+```
+18. Paprašyk, kad vartotojas kanors įvestu ir atkartok jam tą pati, ką jis ivedė.
+```
