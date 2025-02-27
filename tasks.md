@@ -56,5 +56,9 @@
 
 ```
 12. Susikurti du 'string' kintamuosius ir sujungus juos i vieną,
-    prilyginti naujam kintamajam (žodžiai neturetų sulipti, jei reikia).
+    prilyginti naujam kintamajam (žodžiai neturetų sulipti).
+```
+
+```
+13. Susikurti du skaičių kintamuosius ir pirmą atnaujinti, pridėjus antrą.
 ```
