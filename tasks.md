@@ -72,11 +72,11 @@
 ```cs
 15. Parašyti prie kiekvieno veiksmo kokia nauja reikšmė.
 
-double a = 5;
-double b = a + 9;
-a /= 2;
-double c = a + a;
-double d = b - c;
-d *= 2;
-b %= 3;
+double a = 5;      //
+double b = a + 9;  //
+a /= 2;            //
+double c = a + a;  //
+double d = b - c;  //
+d *= 2;            //
+b %= 3;            //
 ```
