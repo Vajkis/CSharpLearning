@@ -94,5 +94,10 @@ b %= 3;            //
 ```
 
 ```
-19. Paprašyk, kad vartotojas ivestų skaičių, ir grąžink jam tekstą: Įvestas skaičius yra <skaičius>.
+19. Paprašyk, kad vartotojas įvestų skaičių, ir grąžink jam tekstą: Įvestas skaičius yra <skaičius>.
+```
+
+```
+20. Paprašyti, kad vartotojas įvestų vieną žodį, jį prilyginti kintamajam,
+    tada paprašyt kad įvestu dar vieną žodį ir juo papildyk jau turimą kintamajį.
 ```
