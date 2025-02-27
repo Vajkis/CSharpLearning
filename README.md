@@ -146,3 +146,25 @@ Console.ReadLine();
 // returns a ConsoleKeyInfo object
 Console.ReadKey();
 ```
+
+## Parse
+
+```cs
+// Parse and TryParse are used to convert strings into specific data types.
+
+string numberString = "123";
+int intNumber = int.Parse(numberString);
+float floatNumber = float.Parse(numberString);
+double doubleNumber = double.Parse(numberString);
+decimal decimalNumber = decimal.Parse(numberString);
+
+int.TryParse(numberString, out int num);
+float.TryParse(numberString, out float num);
+double.TryParse(numberString, out double num);
+decimal.TryParse(numberString, out decimal num);
+
+string keyString = "x";
+char key = char.Parse(keyString);
+char.TryParse(keyString, out char num);
+
+```

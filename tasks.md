@@ -101,3 +101,7 @@ b %= 3;            //
 20. Paprašyti, kad vartotojas įvestų vieną žodį, jį prilyginti kintamajam,
     tada paprašyt kad įvestu dar vieną žodį ir juo papildyk jau turimą kintamajį.
 ```
+
+```
+21. Sudėti vartotojo du įvestus skaičius ir grąžinti atsakymą.
+```
