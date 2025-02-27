@@ -102,6 +102,19 @@ string fullName2 = $"{firstName} {lastName}";
 int price = 5;
 string text5 = "Apple cost " + price + "€";
 string text6 = $"Apple cost {price}€";
+
+string text7 = "Some text";
+string text8 = "more text"
+text7 += text8; // Some textmore text
+
+string text9 = "Some text";
+string text10 = "more text"
+text9 += $" {text10}"; // Some text more text
+
+string text11 = "Some text";
+string text12 = "more text"
+text11 += " "; // "Some text "
+text11 += text12; // Some text more text
 ```
 
 ## Console Class
@@ -118,6 +131,12 @@ Console.Write("Some text");
 
 // Prints text to the terminal and moves to the next line.
 Console.WriteLine("Some text");
+
+// Also you can provide diferent numbers types
+Console.Write(1);
+Console.Write(3.14M);
+Console.WriteLine(74.1);
+Console.WriteLine(9.17f);
 
 // Waits for user input until they press Enter
 // and returns the input as a 'string'.
