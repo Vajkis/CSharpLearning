@@ -49,3 +49,7 @@
     tada palygint ar kiti du nera lygus
     ir tada pateikti atsakyma ar abu palyginimai grazino ta pacia reiksme
 ```
+
+```
+11. Susikurti 'string' kintamajį, ir po to jį papildyti dar vienu žodžiu.
+```
