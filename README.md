@@ -107,6 +107,12 @@ string text6 = $"Apple cost {price}€";
 ## Console Class
 
 ```cs
+/*
+Console class allows you to read input from the user,
+display output to the terminal, and control various terminal properties
+like colors and cursor position.
+*/
+
 // Prints text to the console without a newline at the end.
 Console.Write("Some text");
 
