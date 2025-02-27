@@ -90,5 +90,9 @@ b %= 3;            //
 ```
 
 ```
-18. Paprašyk, kad vartotojas kanors įvestu ir atkartok jam tą pati, ką jis ivedė.
+18. Paprašyk, kad vartotojas kanors įvestų ir atkartok jam tą pati, ką jis ivedė.
+```
+
+```
+19. Paprašyk, kad vartotojas ivestų skaičių, ir grąžink jam tekstą: Įvestas skaičius yra <skaičius>.
 ```
