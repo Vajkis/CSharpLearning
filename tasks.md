@@ -84,3 +84,7 @@ b %= 3;            //
 ```
 16. Susikurti kintamajį kuriam prilyginsi vartotojo ivestai reikšmei.
 ```
+
+```
+17. Susikurti du 'string' kintamuosius ir sujungus juos išvesti į terminalą.
+```
