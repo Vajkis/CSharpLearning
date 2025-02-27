@@ -80,3 +80,7 @@ double d = b - c;  //
 d *= 2;            //
 b %= 3;            //
 ```
+
+```
+16. Susikurti kintamajį kuriam prilyginsi vartotojo ivestai reikšmei.
+```

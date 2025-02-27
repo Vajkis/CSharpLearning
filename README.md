@@ -78,5 +78,46 @@ num -= 2;  // num = num - 2  → 8
 num *= 3;  // num = num * 3  → 30
 num /= 5;  // num = num / 5  → 2
 num %= 4;  // num = num % 4  → 2
+```
 
+## String
+
+```cs
+string text = "Some text";
+
+int num = 2;
+string text2 = "Number is " + num;
+
+int num2 = 1;
+string text3 = $"Number is {num2}";
+
+bool isOpen = false;
+string text4 = "Doors is " + isOpen; // Doors is False
+
+string firstName = "Dovydas";
+string lastName = "Nesakysiu";
+string fullName = firstName + " " + lastName;
+string fullName2 = $"{firstName} {lastName}";
+
+int price = 5;
+string text5 = "Apple cost " + price + "€";
+string text6 = $"Apple cost {price}€";
+```
+
+## Console Class
+
+```cs
+// Prints text to the console without a newline at the end.
+Console.Write("Some text");
+
+// Prints text to the console and moves to the next line.
+Console.WriteLine("Some text");
+
+// Waits for user input until they press Enter
+// and returns the input as a 'string'.
+Console.ReadLine();
+
+// Waits for a single key press from the user and does not require Enter.
+// returns a ConsoleKeyInfo object
+Console.ReadKey();
 ```
