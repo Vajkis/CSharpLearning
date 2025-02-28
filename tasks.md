@@ -107,6 +107,6 @@ b %= 3;            //
 ```
 
 ```
-22. Susikurti kintamajį sum, ir jį atnaujinti 3 kartus
+22. Susikurti kintamajį 'sum' ir jį atnaujinti 3 kartus,
     pagal tai ką ivedė vartotojas.
 ```
