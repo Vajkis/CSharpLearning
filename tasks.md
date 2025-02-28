@@ -1,5 +1,5 @@
 ```
-1. Susikurti du sveikujų skaičių kintamuosius ir prilyginti jų sumą kitam kintamajam.
+1. Susikurti du sveikųjų skaičių kintamuosius ir prilyginti jų sumą kitam kintamajam.
 ```
 
 ```
@@ -16,38 +16,38 @@
 
 ```
 5. Susikurti du skaičių kintamuosius, po to susikurti kitą kintamajį
-   ir panaudoti salygini operatorių (< arba >) prieš tai sukurtiems skaičiams palyginti,
+   ir panaudoti sąligini operatorių (< arba >) prieš tai sukurtiems skaičiams palyginti,
    kad atsakymas būtų 'true'.
 ```
 
 ```
 6. Susikurti du skaičių kintamuosius,
-   juos palyginti ar jie nera lygus
+   juos palyginti ar jie nera lygūs
    ir atsakymą prilyginti kitam kintamajam.
 ```
 
 ```
 7. Susikurti tris skaičių kintamuosius,
-   palyginti ar pirmų dviejū skaičių suma yra lygi trečiajam skaičiui
+   palyginti ar pirmų dviejų skaičių suma yra lygi trečiajam skaičiui
    ir atsakymą prilygint kitam kintamajam.
 ```
 
 ```
-8. Susikurti sveikojo skaičiaus kintamajį ir patikrinus ar jis yra lyginis,
-   kitam kintamajam prilyginti atsakymą.
+8. Susikurti sveikojo skaičiaus kintamajį ir patikrinti, ar jis yra lyginis,
+   ir rezultatą priskirti kitam kintamajam.
 ```
 
 ```
 9. Susikurti du 'string' kintamuosius,
    palyginti ar jie yra identiški
-   ir atsakyma prilyginti naujam kintamajam.
+   ir atsakymą prilyginti naujam kintamajam.
 ```
 
 ```
 10. Susikurti keturis skaičius,
-    palyginti ar pirmi du yra lygus,
-    tada palygint ar kiti du nėra lygus
-    ir tada pateikti atsakyma ar abu palyginimai gražino tą pačią reikšmę.
+    palyginti ar pirmi du yra lygūs,
+    tada palygint ar kiti du nėra lygūs
+    ir tada pateikti atsakymą ar abu palyginimai gražino tą pačią reikšmę.
 ```
 
 ```
@@ -104,4 +104,9 @@ b %= 3;            //
 
 ```
 21. Sudėti vartotojo du įvestus skaičius ir grąžinti atsakymą.
+```
+
+```
+22. Susikurti kintamajį sum, ir jį atnaujinti 3 kartus
+    pagal tai ką ivedė vartotojas.
 ```
