@@ -110,3 +110,7 @@ b %= 3;            //
 22. Susikurti kintamajį 'sum' ir jį atnaujinti 3 kartus,
     pagal tai ką ivedė vartotojas.
 ```
+
+```
+23. Sudauginti du vartotojo įvestus skaičius.
+```
