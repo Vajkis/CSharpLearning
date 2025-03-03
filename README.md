@@ -274,7 +274,7 @@ else
 ```
 
 ```cs
-// multiple conditions in case
+// multiple conditions combined in one case
 int temperature = 10;
 
 if( temperature < 10 )
