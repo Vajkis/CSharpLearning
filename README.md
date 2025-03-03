@@ -117,6 +117,20 @@ text11 += " "; // "Some text "
 text11 += text12; // Some text more text
 ```
 
+## String Methods
+
+```cs
+string text = "Some text";
+
+text.ToUpper(); // SOME TEXT
+text.ToLower(); // some text
+text.Equals("Some text"); // "Some text" == "Some text"  → true
+
+string text2 = "Other text";
+
+text.Equals(text2); // "Some text" == "Other text"  → false
+```
+
 ## Console Class
 
 ```cs
@@ -167,4 +181,102 @@ string keyString = "x";
 char key = char.Parse(keyString);
 char.TryParse(keyString, out char num);
 
+```
+
+## Logical Operator
+
+```cs
+&&  // Returns true only if both conditions are 'true'.
+||  // Returns true only if at least one condition is 'true'.
+!   // Reverses a boolean value
+
+int x = 5;
+int y = 7;
+
+x > 7 && y > 7  // false
+x > 7 || y > 7  // true
+
+bool isOpen = false;
+!isOpen  // true
+```
+
+## if Statement
+
+```cs
+// The if statement is a conditional statement that executes a block of code
+// only if a specified condition evaluates to 'true'.
+
+// single condition
+int x = 1;
+int y = 3;
+
+if(x == y)
+{
+  Console.WriteLine("x and y are equal");
+}
+
+// single condition with an alternative case (all other cases)
+bool iOpen = false;
+
+if(isOpen)
+{
+   Console.WriteLine("Doors is open");
+}
+else
+{
+   Console.WriteLine("Doors is closed");
+}
+
+// multiple specific conditions
+int x = 1;
+int y = 3;
+
+if(x > y)
+{
+  Console.WriteLine("x is greater when y");
+}
+else if(x < y)
+{
+  Console.WriteLine("x is less when y");
+}
+
+// multiple specific conditions with a fallback (all other cases)
+string text = "Vilnius";
+
+if(text.Equals("Vilnius"))
+{
+  Console.WriteLine("Provided city is Vilnius");
+}
+else if(text.Equals("Kaunas"))
+{
+  Console.WriteLine("Provided city is Kaunas");
+}
+else
+{
+  Console.WriteLine("Provided city not exist");
+}
+
+// multiple conditions in case
+int temperature = 10;
+
+if( temperature < 10 )
+{
+  Console.WriteLine("It's cold");
+}
+else if ( temperature > 10 && temperature < 20)
+{
+  Console.WriteLine("It's warm");
+}
+else
+{
+    Console.WriteLine("It's hot");
+}
+
+// negating the condition (executing when isOk is 'false')
+bool isOk = true;
+
+if(!isOk)
+{
+  Console.WriteLine("An error occurred");
+}
 ```

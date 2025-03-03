@@ -4,12 +4,12 @@
   {
     public static void Main()
     {
-      Console.Clear();
+      string text = "Some text";
 
-      string numberString = "0";
-      decimal.TryParse(numberString, out decimal decimalNumber);
+      text.ToUpper();
+      text.ToLower();
 
-      Console.WriteLine(decimalNumber);
+      text.Equals(Console.ReadLine());
     }
   }
 }

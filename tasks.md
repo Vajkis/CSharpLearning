@@ -124,9 +124,13 @@ b %= 3;            //
 ```
 
 ```
-25. Parašykite programą kuri suskaičiuoja apskritimo ilgį, plotą ir skersmenį pagal apskritimo spindulį.
+25. Parašykite programą kuri suskaičiuoja apskritimo skersmenį, ilgį ir plotą pagal apskritimo spindulį.
 
    d = 2 * r
    C = 2 * Math.PI * r
    S = Math.PI * r * r
+```
+
+```
+26. Vartotojas turi įvesti vardą ir pavardę atskirai, o grąžinti reikia vienu metu.
 ```
