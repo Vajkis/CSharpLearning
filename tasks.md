@@ -142,3 +142,8 @@ b %= 3;            //
 ```
 28. Vartotojui įvedus skaičių, parašyt ar jis teigiamas, ar neigiamas.
 ```
+
+```
+29. Vartotojui įvedus du skaičius, išvesti didesni arba mažesni,
+    pagal tai ką vartotojas pasirinks.
+```
