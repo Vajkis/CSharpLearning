@@ -118,4 +118,15 @@ b %= 3;            //
 ```
 24. Sukurti staciakampio ploto ir perimetro skaičiuoklę.
     Programa turi prašyti įvesti x ir y kraštines bei išvesti plotą ir perimetrą.
+
+   P = 2 * (x + y)
+   S = x * y
+```
+
+```
+25. Parašykite programą kuri suskaičiuoja apskritimo ilgį, plotą ir skersmenį pagal apskritimo spindulį.
+
+   d = 2 * r
+   C = 2 * Math.PI * r
+   S = Math.PI * r * r
 ```
