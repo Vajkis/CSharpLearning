@@ -114,3 +114,8 @@ b %= 3;            //
 ```
 23. Sudauginti du vartotojo įvestus skaičius.
 ```
+
+```
+24. Sukurti staciakampio ploto ir perimetro skaičiuoklę.
+    Programa turi prašyti įvesti x ir y kraštines bei išvesti plotą ir perimetrą.
+```
