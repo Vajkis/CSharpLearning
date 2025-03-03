@@ -139,7 +139,9 @@ Console class allows you to read input from the user,
 display output to the terminal, and control various terminal properties
 like colors and cursor position.
 */
+```
 
+```cs
 // Prints text to the terminal without a new line at the end.
 Console.Write("Some text");
 
@@ -203,9 +205,13 @@ bool isOpen = false;
 ## if Statement
 
 ```cs
-// The if statement is a conditional statement that executes a block of code
-// only if a specified condition evaluates to 'true'.
+/*
+The if statement is a conditional statement that executes a block of code
+only if a specified condition evaluates to 'true'.
+*/
+```
 
+```cs
 // single condition
 int x = 1;
 int y = 3;
@@ -214,6 +220,9 @@ if(x == y)
 {
   Console.WriteLine("x and y are equal");
 }
+```
+
+```cs
 
 // single condition with an alternative case (all other cases)
 bool iOpen = false;
@@ -226,6 +235,9 @@ else
 {
    Console.WriteLine("Doors is closed");
 }
+```
+
+```cs
 
 // multiple specific conditions
 int x = 1;
@@ -240,6 +252,9 @@ else if(x < y)
   Console.WriteLine("x is less when y");
 }
 
+```
+
+```cs
 // multiple specific conditions with a fallback (all other cases)
 string text = "Vilnius";
 
@@ -256,6 +271,9 @@ else
   Console.WriteLine("Provided city not exist");
 }
 
+```
+
+```cs
 // multiple conditions in case
 int temperature = 10;
 
@@ -272,6 +290,9 @@ else
     Console.WriteLine("It's hot");
 }
 
+```
+
+```cs
 // negating the condition (executing when isOk is 'false')
 bool isOk = true;
 
