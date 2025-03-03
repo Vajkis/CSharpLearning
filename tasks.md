@@ -134,3 +134,7 @@ b %= 3;            //
 ```
 26. Vartotojas turi įvesti vardą ir pavardę atskirai, o grąžinti reikia vienu metu.
 ```
+
+```
+27. Vartotojui įvedus du skaičius, išvesti mažesnį.
+```
