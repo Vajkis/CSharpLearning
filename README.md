@@ -25,13 +25,13 @@ bool isOpen = false;
 ## Arithmetic Operators
 
 ```cs
-+  // sum
--  // difference
-*  // multiplication
-/  // division
-%  // remainder (modulus)
-++ // increment (increase by 1)
--- // decrement (decrease by 1)
++   // sum
+-   // difference
+*   // multiplication
+/   // division
+%   // remainder (modulus)
+++  // increment (increase by 1)
+--  // decrement (decrease by 1)
 
 double num = 10;
 
@@ -47,12 +47,12 @@ num--    // 9
 ## Comparison Operators
 
 ```cs
-<  // less than
->  // greater than
-<= // less than or equal to
->= // greater than or equal to
-== // equal to
-!= // not equal to
+<   // less than
+>   // greater than
+<=  // less than or equal to
+>=  // greater than or equal to
+==  // equal to
+!=  // not equal to
 
 1 < 6     // true
 5 > 7     // false
@@ -65,11 +65,11 @@ num--    // 9
 ## Assignment Operators
 
 ```cs
-+= // add and assign
--= // subtract and assign
-*= // multiply and assign
-/= // divide and assign
-%= // modulus and assign
++=  // add and assign
+-=  // subtract and assign
+*=  // multiply and assign
+/=  // divide and assign
+%=  // modulus and assign
 
 double num = 10;
 
@@ -84,37 +84,55 @@ num %= 4;  // num = num % 4  → 2
 
 ```cs
 string text = "Some text";
+```
 
+```cs
 int num = 2;
-string text2 = "Number is " + num;
+string text = "Number is " + num;
+```
 
-int num2 = 1;
-string text3 = $"Number is {num2}";
+```cs
+int num = 1;
+string text = $"Number is {num}";
+```
 
+```cs
 bool isOpen = false;
-string text4 = "Doors is " + isOpen; // Doors is False
+string text = "Doors is " + isOpen;  // Doors is False
+```
 
-string firstName = "Dovydas";
-string lastName = "Nesakysiu";
+```cs
+string firstName = "Vardas";
+string lastName = "Pavardė";
+
 string fullName = firstName + " " + lastName;
 string fullName2 = $"{firstName} {lastName}";
+```
 
+```cs
 int price = 5;
-string text5 = "Apple cost " + price + "€";
-string text6 = $"Apple cost {price}€";
 
-string text7 = "Some text";
-string text8 = "more text"
-text7 += text8; // Some textmore text
+string text = "Apple cost " + price + "€";
+string text = $"Apple cost {price}€";
+```
 
-string text9 = "Some text";
-string text10 = "more text"
-text9 += $" {text10}"; // Some text more text
+```cs
+string text = "Some text";
+string text2 = "more text"
+text += text2;  // Some textmore text
+```
 
-string text11 = "Some text";
-string text12 = "more text"
-text11 += " "; // "Some text "
-text11 += text12; // Some text more text
+```cs
+string text = "Some text";
+string text2 = "more text"
+text += $" {text2}";  // Some text more text
+```
+
+```cs
+string text = "Some text";
+string text2 = "more text"
+text += " ";    // "Some text "
+text += text2;  // Some text more text
 ```
 
 ## String Methods
@@ -122,13 +140,13 @@ text11 += text12; // Some text more text
 ```cs
 string text = "Some text";
 
-text.ToUpper(); // SOME TEXT
-text.ToLower(); // some text
-text.Equals("Some text"); // text == "Some text"  → true
+text.ToUpper();            // SOME TEXT
+text.ToLower();            // some text
+text.Equals("Some text");  // text == "Some text"  → true
 
 string text2 = "Other text";
 
-text.Equals(text2); // "Some text" == "Other text"  → false
+text.Equals(text2);  // text == "Other text"  → false
 ```
 
 ## ToString Method
@@ -140,17 +158,17 @@ text.Equals(text2); // "Some text" == "Other text"  → false
 ```cs
 int num = 1;
 
-num.ToString(); // "1"
-num.ToString("F1"); // "1.0"
-num.ToString("F2"); // "1.00"
+num.ToString();      // "1"
+num.ToString("F1");  // "1.0"
+num.ToString("F2");  // "1.00"
 ```
 
 ```cs
-double num2 = 3.789;
+double num = 3.789;
 
-num2.ToString(); // "3.789"
-num2.ToString("F1"); // "3.7"
-num2.ToString("F2"); // "3.78"
+num.ToString();      // "3.789"
+num.ToString("F1");  // "3.7"
+num.ToString("F2");  // "3.78"
 ```
 
 ## Console Class
@@ -191,6 +209,7 @@ Console.ReadKey();
 // Parse and TryParse are used to convert strings into specific data types.
 
 string numberString = "123";
+
 int intNumber = int.Parse(numberString);
 float floatNumber = float.Parse(numberString);
 double doubleNumber = double.Parse(numberString);
@@ -200,11 +219,13 @@ int.TryParse(numberString, out int num);
 float.TryParse(numberString, out float num);
 double.TryParse(numberString, out double num);
 decimal.TryParse(numberString, out decimal num);
+```
 
+```cs
 string keyString = "x";
+
 char key = char.Parse(keyString);
 char.TryParse(keyString, out char num);
-
 ```
 
 ## Logical Operator
@@ -221,7 +242,7 @@ char.TryParse(keyString, out char num);
 bool isOk = true;
 bool isUser = false;
 
-!(isOk || isUser) // false
+!(isOk || isUser)  // false
 ```
 
 ```cs
@@ -233,8 +254,11 @@ x >= 7 || y >= 7  // true
 
 x >= 5 ^ y >= 5  // false
 x >= 7 ^ y >= 7  // true
+```
 
+```cs
 bool isOpen = false;
+
 !isOpen  // true
 ```
 
