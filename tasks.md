@@ -154,7 +154,7 @@ b %= 3;            //
 ```
 
 ```
-31. Duoti vartotojui pasirinkti kiek lygesienis turi kraštinių,
+31. Duoti vartotojui pasirinkti kiek lygekraštis turi kraštinių,
     ir pagal ivestą vienos kraštinės ilgį, išvesti perimetrą,
     jeigu ivestas kraštinių skaičius netinkamas, išvesti klaido pranešimą.
 
