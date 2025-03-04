@@ -32,7 +32,9 @@ bool isOpen = false;
 %   // remainder (modulus)
 ++  // increment (increase by 1)
 --  // decrement (decrease by 1)
+```
 
+```cs
 double num = 10;
 
 num + 3  // 13
@@ -53,7 +55,9 @@ num--    // 9
 >=  // greater than or equal to
 ==  // equal to
 !=  // not equal to
+```
 
+```cs
 1 < 6     // true
 5 > 7     // false
 5 <= 5    // true
@@ -70,7 +74,9 @@ num--    // 9
 *=  // multiply and assign
 /=  // divide and assign
 %=  // modulus and assign
+```
 
+```cs
 double num = 10;
 
 num += 5;  // num = num + 5  → 15
@@ -88,16 +94,19 @@ string text = "Some text";
 
 ```cs
 int num = 2;
+
 string text = "Number is " + num;
 ```
 
 ```cs
 int num = 1;
+
 string text = $"Number is {num}";
 ```
 
 ```cs
 bool isOpen = false;
+
 string text = "Doors is " + isOpen;  // Doors is False
 ```
 
@@ -119,18 +128,21 @@ string text = $"Apple cost {price}€";
 ```cs
 string text = "Some text";
 string text2 = "more text"
+
 text += text2;  // Some textmore text
 ```
 
 ```cs
 string text = "Some text";
 string text2 = "more text"
+
 text += $" {text2}";  // Some text more text
 ```
 
 ```cs
 string text = "Some text";
 string text2 = "more text"
+
 text += " ";    // "Some text "
 text += text2;  // Some text more text
 ```
@@ -139,14 +151,12 @@ text += text2;  // Some text more text
 
 ```cs
 string text = "Some text";
+string text2 = "Other text";
 
 text.ToUpper();            // SOME TEXT
 text.ToLower();            // some text
 text.Equals("Some text");  // text == "Some text"  → true
-
-string text2 = "Other text";
-
-text.Equals(text2);  // text == "Other text"  → false
+text.Equals(text2);        // text == text2        → false
 ```
 
 ## ToString Method
