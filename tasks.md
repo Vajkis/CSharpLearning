@@ -163,9 +163,20 @@ b %= 3;            //
 
 ```
 32. Vartotojas įveda pasirinkimą:
-    '1' – konvertuoti kilometrus į metrus
-    '2' – konvertuoti metrus į centimetrus
-    '3' – konvertuoti kilogramus į gramus
+    '1' - konvertuoti kilometrus į metrus
+    '2' - konvertuoti metrus į centimetrus
+    '3' - konvertuoti kilogramus į gramus
     Vartotojas taip pat įveda skaičių, kuris turi būti konvertuotas.
     Programa išveda konvertuotą reikšmę.
+```
+
+```
+33. Parašyk programą, kuri apskaičiuoja kino bilieto kainą pagal šias sąlygas:
+    jei asmuo yra jaunesnis nei 12 metų, bilieto kaina yra 5€,
+    jei asmuo yra nuo 12 iki 18 metų, bilieto kaina yra 7€,
+    jei asmuo yra nuo 18 iki 60 metų, bilieto kaina yra 10€,
+    jei asmuo yra 60 metų ar vyresnis, bilieto kaina yra 6€,
+    jei šiandien yra antradienis, visiems bilietams taikoma 20% nuolaida.
+
+    Vartotojas turi įvesti amžių ir pasirenkti savaitės dieną.
 ```
