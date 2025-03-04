@@ -152,3 +152,11 @@ b %= 3;            //
 30. Vartotojui įvedus varda, pavardę ir amžių (kiekvieną atskirai),
     išvesti vienoje žinutėje: 'Vardas Pavardė (pilnametis | nepilnametis)'
 ```
+
+```
+31. Duoti vartotojui pasirinkti kiek lygesienis turi kraštinių,
+    ir pagal ivestą vienos kraštinės ilgį, išvesti perimetrą,
+    jeigu ivestas kraštinių skaičius netinkamas, išvesti klaido pranešimą.
+
+   P = n * a
+```
