@@ -154,9 +154,18 @@ b %= 3;            //
 ```
 
 ```
-31. Duoti vartotojui pasirinkti kiek lygekraštis turi kraštinių,
+31. Duoti vartotojui pasirinkti kiek lygiakraštis turi kraštinių,
     ir pagal ivestą vienos kraštinės ilgį, išvesti perimetrą,
     jeigu ivestas kraštinių skaičius netinkamas, išvesti klaido pranešimą.
 
    P = n * a
+```
+
+```
+32. Naudotojas įveda pasirinkimą:
+    '1' – konvertuoti kilometrus į metrus
+    '2' – konvertuoti metrus į centimetrus
+    '3' – konvertuoti kilogramus į gramus
+    Naudotojas taip pat įveda skaičių, kuris turi būti konvertuotas.
+    Programa išveda konvertuotą reikšmę.
 ```
