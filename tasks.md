@@ -147,3 +147,8 @@ b %= 3;            //
 29. Vartotojui įvedus du skaičius, išvesti didesni arba mažesni,
     pagal tai ką vartotojas pasirinks.
 ```
+
+```
+30. Vartotojui įvedus varda, pavardę ir amžių (kiekvieną atskirai),
+    išvesti vienoje žinutėje: 'Vardas Pavardė (pilnametis | nepilnametis)'
+```
