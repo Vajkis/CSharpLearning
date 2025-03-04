@@ -311,7 +311,6 @@ else if(x < y)
 {
   Console.WriteLine("x is less when y");
 }
-
 ```
 
 ```cs
@@ -330,7 +329,6 @@ else
 {
   Console.WriteLine("Provided city not exist");
 }
-
 ```
 
 ```cs
@@ -349,7 +347,6 @@ else
 {
     Console.WriteLine("It's hot");
 }
-
 ```
 
 ```cs
