@@ -162,10 +162,10 @@ b %= 3;            //
 ```
 
 ```
-32. Naudotojas įveda pasirinkimą:
+32. Vartotojas įveda pasirinkimą:
     '1' – konvertuoti kilometrus į metrus
     '2' – konvertuoti metrus į centimetrus
     '3' – konvertuoti kilogramus į gramus
-    Naudotojas taip pat įveda skaičių, kuris turi būti konvertuotas.
+    Vartotojas taip pat įveda skaičių, kuris turi būti konvertuotas.
     Programa išveda konvertuotą reikšmę.
 ```
