@@ -217,7 +217,9 @@ Console.ReadKey();
 
 ```cs
 // Parse and TryParse are used to convert strings into specific data types.
+```
 
+```cs
 string numberString = "123";
 
 int intNumber = int.Parse(numberString);
@@ -293,7 +295,6 @@ if(x == y)
 ```
 
 ```cs
-
 // single condition with an alternative case (all other cases)
 bool iOpen = false;
 
@@ -308,7 +309,6 @@ else
 ```
 
 ```cs
-
 // multiple specific conditions
 int x = 1;
 int y = 3;
