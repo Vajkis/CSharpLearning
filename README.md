@@ -210,10 +210,10 @@ char.TryParse(keyString, out char num);
 ## Logical Operator
 
 ```cs
-&&  // AND - Returns true only if both conditions are 'true'.
-||  // OR  - Returns true only if at least one condition is 'true'.
+&&  // AND - Returns 'true' only if both conditions are 'true'.
+||  // OR  - Returns 'true' only if at least one condition is 'true'.
 !   // NOT - Reverses a boolean value
-^   // XOR - Returns true if exactly one of the conditions is 'true', otherwise returns false.
+^   // XOR - Returns 'true' if exactly one of the conditions is 'true', otherwise returns false.
 ```
 
 ```cs
