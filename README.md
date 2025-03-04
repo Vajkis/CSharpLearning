@@ -217,10 +217,11 @@ char.TryParse(keyString, out char num);
 ```
 
 ```cs
+// NOR - Returns 'true' only if both conditions are 'false', otherwise returns false.
 bool isOk = true;
 bool isUser = false;
 
-!(isOk || isUser)  // NOR - Returns 'true' only if both conditions are 'false', otherwise returns false.
+!(isOk || isUser) // false
 ```
 
 ```cs
