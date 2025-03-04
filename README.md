@@ -1,4 +1,4 @@
-## Types:
+## Types
 
 ```cs
 char     // single character (e.g., 'A')
@@ -203,7 +203,7 @@ Console.ReadLine();
 Console.ReadKey();
 ```
 
-## Parse
+## Parse & TryParse Methods
 
 ```cs
 // Parse and TryParse are used to convert strings into specific data types.
@@ -228,7 +228,7 @@ char key = char.Parse(keyString);
 char.TryParse(keyString, out char num);
 ```
 
-## Logical Operator
+## Logical Operators
 
 ```cs
 &&  // AND - Returns 'true' only if both conditions are 'true'.
