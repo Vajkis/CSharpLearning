@@ -124,11 +124,33 @@ string text = "Some text";
 
 text.ToUpper(); // SOME TEXT
 text.ToLower(); // some text
-text.Equals("Some text"); // "Some text" == "Some text"  → true
+text.Equals("Some text"); // text == "Some text"  → true
 
 string text2 = "Other text";
 
 text.Equals(text2); // "Some text" == "Other text"  → false
+```
+
+## ToString Method
+
+```cs
+// With 'ToString' method you can convert a number (integer, floating-point, etc.) to a string.
+```
+
+```cs
+int num = 1;
+
+num.ToString(); // "1"
+num.ToString("F1"); // "1.0"
+num.ToString("F2"); // "1.00"
+```
+
+```cs
+double num2 = 3.789;
+
+num2.ToString(); // "3.789"
+num2.ToString("F1"); // "3.7"
+num2.ToString("F2"); // "3.78"
 ```
 
 ## Console Class
@@ -188,15 +210,28 @@ char.TryParse(keyString, out char num);
 ## Logical Operator
 
 ```cs
-&&  // Returns true only if both conditions are 'true'.
-||  // Returns true only if at least one condition is 'true'.
-!   // Reverses a boolean value
+&&  // AND - Returns true only if both conditions are 'true'.
+||  // OR  - Returns true only if at least one condition is 'true'.
+!   // NOT - Reverses a boolean value
+^   // XOR - Returns true if exactly one of the conditions is 'true', otherwise returns false.
+```
 
+```cs
+bool isOk = true;
+bool isUser = false;
+
+!(isOk || isUser)  // NOR - Returns 'true' only if both conditions are 'false', otherwise returns false.
+```
+
+```cs
 int x = 5;
 int y = 7;
 
-x > 7 && y > 7  // false
-x > 7 || y > 7  // true
+x >= 7 && y >= 7  // false
+x >= 7 || y >= 7  // true
+
+x >= 5 ^ y >= 5  // false
+x >= 7 ^ y >= 7  // true
 
 bool isOpen = false;
 !isOpen  // true
